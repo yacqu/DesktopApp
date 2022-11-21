@@ -22,4 +22,4 @@ with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context) as server:
         my_email, out_email, message.as_string()
     )
 
-    cleaned up functions and added email sender
+
